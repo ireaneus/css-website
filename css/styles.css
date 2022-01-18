@@ -37,15 +37,13 @@ a:hover {
 .top-container {
     text-align: justify;
     background: #15598a;
-    background-image: -webkit-linear-gradient(top, #15598a, #89bce9);
-    background-image: -moz-linear-gradient(top, #15598a, #89bce9);
-    background-image: -ms-linear-gradient(top, #15598a, #89bce9);
-    background-image: -o-linear-gradient(top, #15598a, #89bce9);
-    background-image: linear-gradient(to bottom, #15598a, #89bce9);
     background-position: center;
-    -webkit-border-radius: 151;
-    -moz-border-radius: 151;
-    border-radius: 151px;
+    -webkit-border-bottom-left-radius: 28;
+    -webkit-border-bottom-right-radius: 28;
+    -moz-border-bottom-left-radius: 28;
+    -moz-border-bottom-left-radius: 28;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
 }
 
 .middle-container {
@@ -55,6 +53,10 @@ a:hover {
 .bottom-container {
     background-color: #15598a;
     padding: 50px 0 20px;
+    -webkit-border-top-left-radius: 28;
+    -webkit-border-top-right-radius: 28;
+    -moz-border-top-left-radius: 28;
+    -moz-border-top-left-radius: 28;
     border-top-left-radius: 28px;
     border-top-right-radius: 28px;
 }
@@ -84,7 +86,7 @@ a:hover {
 }
 
 hr {
-    border: dotted blanchedalmond 6px;
+    border: dotted #9e9d9d 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
@@ -96,7 +98,7 @@ hr {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     margin: auto;
     font-family: 'Neonderthaw', cursive;
     text-shadow: 3px 3px 9px #666666;
